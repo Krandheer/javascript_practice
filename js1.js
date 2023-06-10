@@ -45,4 +45,4 @@ function pyramidPattern(numOfRows) {
 
     }
 }
-createePattern(10)
+createPattern(10)
