@@ -30,13 +30,19 @@ function fib(num){
 
 
 // pattern printing in function
-function createePattern(numberOfRows) {
+function createPattern(numberOfRows) {
     for (let i = 0; i < numberOfRows; i++) {
        let stringToPrint = ""
        for (let j = 0; j < i+1; j ++){
             stringToPrint = stringToPrint+"*"
        }
         console.log(stringToPrint)
+    }
+}
+
+function pyramidPattern(numOfRows) {
+    for (let i=0; i <= numOfRows; i ++) {
+
     }
 }
 createePattern(10)
