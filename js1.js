@@ -9,7 +9,7 @@ const sumAll = (startIndex, endIndex) => {
 
 
 // using map
-let users = [{ name: 'harkirat', age: 22 }, { name: 'randheer', age: 28 }]
+let users = [{ name: 'ravi', age: 22 }, { name: 'randheer', age: 28 }]
 function printAllUsers(user) {
     user.map(item => {
         console.log(`${item.name} is of age: ${item.age}`)
